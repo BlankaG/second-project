@@ -5,12 +5,18 @@
 /*----------Header and -Wrapper---------*/
 
 .header {
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 body {
-    padding: 0px, 20px, 20px, 0px;
+    width:100%;
+    Height: auto;
+    padding: 0, 0, 0, 0;
     background-color: #fafafa;
     font-family: 'Roboto' , sans-serif;
     color: #777777;
@@ -21,6 +27,8 @@ body {
 .wrapper{
     width: 100%;
     height: 600px;
+    margin-left: auto;
+    margin-right: auto;
     background:url("https://images.pexels.com/photos/33622/fashion-model-beach-hat.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center;
     animation-name: wrapper-zoom;
     animation-duration: 5s;
@@ -30,6 +38,8 @@ body {
 .wrapper-outer {
     width: 100%;
     height: 600px;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
 
 }
@@ -42,6 +52,33 @@ body {
         transform: scale(1.1);
     }
 }
+
+.popular {
+    width: 100%;
+    height: auto;
+    padding: 0, 0, 0, 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active {
+    width: 100%;
+    height: auto;
+    padding: 0, 0, 0, 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#000080;
+}
+
+
 
 /*-----------------------------------------Headings*/
 
@@ -56,7 +93,7 @@ h1 {
 
 h2 {
     text-align: center;
-    padding-top: 50px;
+    margin-top: 50px;
     color: #000080;
     font-family: 'Exo', sans-serif;
     font-weight: 500;
@@ -86,10 +123,56 @@ h4 {
 
 }
 
+h6 {
+    text-align: center;
+    padding-top: 20px;
+    color:  #e2cf1f;
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+/*---------social links-------*/
+
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 60px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 70px;
+    color: #e2cf1f;
+}
+
+.social-links li a i:hover {
+    color: #fafafa;
+
+}
+
+/*-------------------Buttons---*/
+
+.btn-outline-primary {
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: 	#000080;
+}
+
+
+
+
+
 /*----------------CARDS-----------*/
 body
 {
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
   font-family: 'RobotoDraft', 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -102,7 +185,7 @@ body
 
 h5
 {
-  margin:0px;
+  margin: 0px;
   font-size:1.4em;
   font-weight:700;
 }
