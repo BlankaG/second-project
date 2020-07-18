@@ -14,9 +14,10 @@
 }
 
 body {
-    width:100%;
+    width:100vw;
     Height: auto;
-    padding: 0, 0, 0, 0;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #fafafa;
     font-family: 'Roboto' , sans-serif;
     color: #777777;
@@ -25,12 +26,13 @@ body {
 }
 
 .about {
-    width: 90vmax;
-    padding: 0, 0, 0, 0;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 .wrapper{
-    width: 90vmax;
-    height: 800px;
+    width: 100vw;
+    height: 900px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px, 0px, 0px, 0px;
@@ -41,8 +43,8 @@ body {
 }
 
 .wrapper-outer {
-    width: 90vmax;
-    height: 800px;
+    width: 100vw;
+    height: 900px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
