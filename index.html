@@ -25,6 +25,7 @@
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
+  <script src="flight.js"></script>
     <!-----------Load Jasmine Framework--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.js" integrity="sha512-PAOFqlhbgGVh70gKb5RfTLLVmEFnh5jO75xrEMjT8mzspI+Wl4PKqEDGx4x4/EwgFHe8nlKCAGUwisHZXOtQ8g==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js" integrity="sha512-noNmiAb9mmW56srU8iRSdFsAYTAMYCjRk+bH8T3iTOvUlJrmCZCf3aLZcpwAPH1wZ/Vkrehf+WNnFV4Qu29KLQ==" crossorigin="anonymous"></script>
@@ -57,7 +58,7 @@
 
     <!-------------------Booking form-->
 
-    <div class="booking-form-box">
+    <div class="booking-form-box" id="booking">
     <div class="radio-btn">
     <input type="radio" class="btn" name="check" checked="checked"><span>Roundtrip</span>
     <input type="radio" class="btn" name="check"><span>One Way</span>
@@ -427,7 +428,9 @@
     </div>
   </div>
 </div>
-	
+	<script>
+    var APIKey = "815d7a0041msh7c25e3e95ffe32ap1b686cjsnacf5533693f0";
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

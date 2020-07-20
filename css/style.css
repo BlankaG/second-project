@@ -87,7 +87,7 @@ body {
     background-color: #fff;
     position: relative;
     display: inline-block;
-    border: 3px solid #000080;
+    border: 2px solid #000080;
     visibility: visible;
     border-radius: 50%;
 }
@@ -115,7 +115,7 @@ body {
     color: #000080;
 }
  input::placeholder {
-    color: #fff !important;
+    color: 	#2f4f4f !important;
  }
 
  .input-grp {
@@ -126,7 +126,7 @@ body {
 .form-control {
     font-size: 14px !important;
     border-radius: 0 !important;
-    color: #fff !important;
+    color: 	#2f4f4f !important;
     background: transparent !important;
     box-shadow: none !important;
 
@@ -144,7 +144,7 @@ body {
 }
 
 .custom-select {
-    color: #fff !important;
+    color: 	#2f4f4f !important;
     font-size: 14px !important;
     border: 2px solid #000080 !important;
     box-shadow: none !important;
@@ -164,6 +164,7 @@ custom-select option {
     background: transparent !important;
      box-shadow: none !important;
     border-radius: 0 !important;
+    color: 	#2f4f4f;
 
 }
 
