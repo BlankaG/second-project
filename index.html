@@ -20,17 +20,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
-  <script src="flight.js"></script>
-    <!-----------Load Jasmine Framework--
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.js" integrity="sha512-PAOFqlhbgGVh70gKb5RfTLLVmEFnh5jO75xrEMjT8mzspI+Wl4PKqEDGx4x4/EwgFHe8nlKCAGUwisHZXOtQ8g==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js" integrity="sha512-noNmiAb9mmW56srU8iRSdFsAYTAMYCjRk+bH8T3iTOvUlJrmCZCf3aLZcpwAPH1wZ/Vkrehf+WNnFV4Qu29KLQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.js" integrity="sha512-2shpoK9lnpDGymLugeKOQ48e5sL452343YLO9z1KLiFHop0ZuzqiG69i1X/UV9hd4UzVmCOBHxlRyFBmXGRyUw==" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.css" integrity="sha512-XKXP02aeSNI5HsDB3+4MM0tSDXJTBFZpt99xL7PvMz3+A3aRy0F0Ne/CATK+Z72ckE/4Ev9OiosWQr5LtU284Q==" crossorigin="anonymous" />-->
+    <script  type="text/javascript" src="index.js"></script>
+    
   </head>
   
    <!-------------Logo Header-->
@@ -67,10 +64,11 @@
     
   
     <div class="booking-form">
+    
     <label>Flying From</label>
-    <input type="text" class="form-control" placeholder="City or Airport">
+    <input type="text" id="from" class="form-control" placeholder="City or Airport">
     <label>Flying To</label>
-    <input type="text" class="form-control" placeholder="City or Airport">
+    <input type="text" id="to" class="form-control" placeholder="City or Airport">
 
     <div class="input-grp">
     <label>Departing</label>
@@ -367,6 +365,13 @@
 
 <h6>Save time, save money</h6>
 <h6>We will send you the best deals</h6>
+<div class="center-form">
+                <form>
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <button type="submit" class="btn btn-primary center-block">Subscribe</button>
+                </form>
+            </div>
 
 </div>
 	</footer>

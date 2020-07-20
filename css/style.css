@@ -60,6 +60,19 @@ body {
     }
 }
 
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e2cf1f;
+    color:#000080;
+}
 /*------------Booking Form----*/
 
 .booking-form-box {
