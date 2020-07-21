@@ -1,15 +1,19 @@
-var settings = {
-	"async": true,
-	"crossDomain": true,
-	"url": "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/autosuggest/v1.0/UK/GBP/en-GB/?query=Stockholm",
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
-		"x-rapidapi-key": "815d7a0041msh7c25e3e95ffe32ap1b686cjsnacf5533693f0"
-	}
+/*-------
+function getData(cb) {
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("GET", "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com");
+    xhr.send();
+
+    xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            cb(JSON.parse(this.responseText));
+        }
+    };
 }
 
-$.ajax(settings).done(function (response) {
-	console.log(response);
-});
+function printDataToConsole(data) {
+    console.log(data);
+}
 
+getData(printDataToConsole);---*/

@@ -31,20 +31,20 @@ body {
     margin-right: auto;
 }
 .wrapper{
-    width: 100vw;
-    height: 900px;
+    height: 800px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0px, 0px, 0px, 0px;
-    background:url("https://images.pexels.com/photos/33622/fashion-model-beach-hat.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center/cover;
+    background:url("../css/sea-fashion-beach-sand.jpg") no-repeat center/cover;
     animation-name: wrapper-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards; 
 }
 
 .wrapper-outer {
-    width: 100vw;
-    height: 900px;
+    height: 800px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -60,7 +60,11 @@ body {
     }
 }
 
-
+.book {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 40%;
+}
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
